@@ -18,7 +18,7 @@ published page and nothing else.
 
 `index.html` is the whole page: one file, no scripts, no cookies, no external
 resources, so it loads on anything and cannot break when a CDN moves. Edit it,
-then push to `main`; Pages rebuilds in about a minute.
+then push to `master`; Pages rebuilds in about a minute.
 
 When the policy changes, update the "Last updated" date on the page and the same
 line in `docs/PRIVACY.md` in the game's repository, so the two do not drift.
